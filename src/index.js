@@ -8,6 +8,9 @@ const sayHello = () => {
 
 sayHello();
 
-$("body").css("background-color", "salmon");
+$("body").css("background-color", "green");
 
-$("body").append("<h1>Happy NPM Day, everybody!</h1>");
+
+const welcome = require('./say-hello.js');
+
+console.log(welcome);
